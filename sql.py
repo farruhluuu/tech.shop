@@ -19,3 +19,4 @@ id = input('Что вы хотите купить ')
 cursor.execute(f"SELECT * FROM products WHERE productname = '{id}';")
 print(cursor.fetchall())
 
+print("проэкт завершен")
